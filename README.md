@@ -1,3 +1,3 @@
-# Advent of Code 2019
+# Advent of Code 2020
 
-This repo contains my solutions to the 2019 edition of [Advent of code](https://adventofcode.com/2020)
+This repo contains my solutions to the 2020 edition of [Advent of code](https://adventofcode.com/2020)
