@@ -19,7 +19,7 @@ fun findMult(values: IntArray, target: Int, numVals: Int, prevVals: IntArray): I
     return 0
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val target = 2020
     val input = getResourceAsText("/input.txt")
     val values = input.trim().split("\n").map { it.toInt() }.sorted().toIntArray()
