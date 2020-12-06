@@ -29,6 +29,6 @@ fun main() {
     }
     println("Part 1: ${takenSeats.indexOfLast{ it }}")
     for ((id, seat) in takenSeats.withIndex())
-        if (!seat && takenSeats.getOrElse(id - 1) { false } && takenSeats.getOrElse(id + 1) { false })
+        if (!seat && takenSeats.getOrNull(id - 1) == true && takenSeats.getOrNull(id + 1) == true)
             println("Part 2: $id")
 }
