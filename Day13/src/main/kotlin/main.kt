@@ -17,7 +17,7 @@ fun main() {
         else
             Equation(s.toLong(), index.toLong())
     }.filterNotNull()
-    val t = sieve(equations)
+    val t = sieve(equations.sortedByDescending { it.mod })
     println("Part 2: $t")
 }
 
